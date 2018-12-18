@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>탭 이름</title>
+        <style>
+            /* 클래스가 red */
+            .red {
+                color:red;
+            }
+            /* id가 blue */
+            #blue {
+                color: blue;
+            }
+            /* 태그가 p */
+            p {
+                color: skyblue; 
+            }
+            /* !important붙이면 무조건 우선1순위 */
+        </style>
+    </head>
+
+    <body>
+    <!-- 우선순위 = 인라인 > id > class > tag -->
+    <!-- 인라인(inline) 속성 -->
+        <h1 id = "blue" style="color:red;">안녕? 제목이니?</h1>
+        <h2 class="red">아닛? 빨간색?</h2>
+        <p id="blue" class="red">빨간색? 파란색?</p>
+        <p id="blue">파랑이좋겠군</p>
+        <p>하늘색</p>
+    </body>
+    
+</html>
+ 
