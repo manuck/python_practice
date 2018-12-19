@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{music}} 입니당 </h1>
+    {% if music == "아이유-이름에게" %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8zsYZFvKniw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>역시 아이유!? </h2>
+    {% elif music == "멜로망스-욕심" %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2N1Y9RxAsxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>목소리 완전좋아</h2>
+     {% else  %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/86EsVeiQq2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>태연 이쁘고 노래도 잘햏</h2>
+    {% endif %}
+</body>
+</html>
