@@ -17,7 +17,7 @@ user_id = updates["result"][0]["message"]["from"]["id"]
 print(user_id)
 
 # 4. 메시지를 설정한다.
-msg  = "안녕안녕?"
+msg  = "ㅇㅅㅇ?"
 url = f"https://api.telegram.org/bot{token}/sendMessage?text={msg}&chat_id={user_id}"
 
 # 5. 메시지를 보낸다.
